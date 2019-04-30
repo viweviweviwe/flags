@@ -81,11 +81,11 @@ class Flag: UIView {
         
         
         
-       UIColor.black.setStroke()
+       UIColor.green.setStroke()
         pathFirstElement().stroke()
-        UIColor.blue.setFill()
+        UIColor.yellow.setFill()
         pathSecondElement().fill()
-        UIColor.red.setFill()
+        UIColor.black.setFill()
         pathThreeElement().fill()
         // Drawing code
     }
